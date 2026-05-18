@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日脑力谜题</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div class="hero-bar">
+        <div>
+          <p class="eyebrow">EVERYDAY BRAIN TEASER</p>
+          <h1>随机来一道，让大脑热起来</h1>
+          <p class="hero-copy">数字规律、逻辑推理、脑筋急转弯混合出题。答完立刻知道对错，还能一键查看解析。</p>
+        </div>
+        <a class="nav-link" href="/admin.html">进入后台录题</a>
+      </div>
+    </header>
+
+    <main class="challenge-panel">
+      <section class="question-card" aria-live="polite">
+        <div class="question-card__top">
+          <div class="question-meta">
+            <span class="pill" id="type-pill">题型</span>
+            <span class="pill pill--ghost" id="difficulty-pill">难度</span>
+          </div>
+        </div>
+
+        <div class="question-body">
+          <p class="question-label">当前题目</p>
+          <h2 id="question-text">正在准备题目...</h2>
+        </div>
+
+        <form class="answer-form" id="answer-form">
+          <label class="sr-only" for="answer-input">输入你的答案</label>
+          <input
+            id="answer-input"
+            name="answer"
+            type="text"
+            autocomplete="off"
+            placeholder="在这里输入答案"
+          >
+          <div class="action-row">
+            <button class="primary-button" type="submit">提交答案</button>
+            <button class="secondary-button" id="reveal-button" type="button">查看解析</button>
+            <button class="secondary-button" id="next-button" type="button">下一题</button>
+          </div>
+        </form>
+
+        <section class="feedback-panel" id="feedback-panel" hidden>
+          <p class="feedback-panel__status" id="feedback-status"></p>
+          <p class="feedback-panel__message" id="feedback-message"></p>
+        </section>
+
+        <section class="explanation-panel" id="explanation-panel" hidden>
+          <div class="explanation-panel__header">
+            <p>题目解析</p>
+            <span class="pill pill--accent" id="explanation-type"></span>
+          </div>
+          <p class="solution-line">标准答案：<strong id="solution-answer"></strong></p>
+          <p id="solution-explanation"></p>
+        </section>
+      </section>
+
+      <aside class="info-card">
+        <p class="info-card__title">怎么玩</p>
+        <ul>
+          <li>题目存放在本地 SQLite 题库里，由服务端接口读取。</li>
+          <li>你可以先独立作答，再决定要不要看解析。</li>
+          <li>题库按轮次抽取，尽量避免连续重复。</li>
+        </ul>
+      </aside>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

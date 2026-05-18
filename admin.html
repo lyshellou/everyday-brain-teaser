@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>题库后台录入</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero admin-hero">
+      <div class="hero-bar">
+        <div>
+          <p class="eyebrow">PUZZLE ADMIN</p>
+          <h1>新增与编辑题目</h1>
+          <p class="hero-copy">在这里维护 SQLite 题库。左侧选题，右侧编辑；也可以直接新增一题。</p>
+        </div>
+        <a class="nav-link" href="/index.html">返回前台答题</a>
+      </div>
+    </header>
+
+    <main class="admin-layout">
+      <aside class="admin-list-card">
+        <div class="admin-list-card__top">
+          <p class="info-card__title">题目列表</p>
+          <button class="secondary-button" id="new-puzzle-button" type="button">新增题目</button>
+        </div>
+        <p class="admin-list-summary" id="puzzle-count">正在加载题目...</p>
+        <div class="puzzle-list" id="puzzle-list"></div>
+      </aside>
+
+      <section class="admin-form-card">
+        <div class="admin-form-card__top">
+          <p class="info-card__title">题目表单</p>
+          <span class="pill pill--accent" id="form-mode">新增模式</span>
+        </div>
+
+        <form id="admin-form" class="admin-form">
+          <label class="admin-field">
+            <span>题目 ID</span>
+            <input id="puzzle-id" name="id" type="text" placeholder="例如：logic-06" required>
+          </label>
+
+          <div class="admin-grid">
+            <label class="admin-field">
+              <span>题型</span>
+              <select id="puzzle-type" name="type">
+                <option value="number">数字规律</option>
+                <option value="logic">逻辑推理</option>
+                <option value="word">趣味谜题</option>
+              </select>
+            </label>
+
+            <label class="admin-field">
+              <span>难度</span>
+              <select id="puzzle-difficulty" name="difficulty">
+                <option value="easy">入门</option>
+                <option value="medium">进阶</option>
+                <option value="hard">挑战</option>
+              </select>
+            </label>
+          </div>
+
+          <label class="admin-field">
+            <span>题目内容</span>
+            <textarea id="puzzle-question" name="question" rows="4" placeholder="输入题目内容"></textarea>
+          </label>
+
+          <label class="admin-field">
+            <span>标准答案</span>
+            <input id="puzzle-answer" name="answer" type="text" placeholder="输入标准答案">
+          </label>
+
+          <label class="admin-field">
+            <span>可接受答案</span>
+            <textarea id="puzzle-accepted-answers" name="acceptedAnswers" rows="4" placeholder="每行一个答案；留空时会自动使用标准答案"></textarea>
+          </label>
+
+          <label class="admin-field">
+            <span>题目解析</span>
+            <textarea id="puzzle-explanation" name="explanation" rows="5" placeholder="输入解析"></textarea>
+          </label>
+
+          <div class="action-row">
+            <button class="primary-button" id="save-puzzle-button" type="submit">保存题目</button>
+            <button class="secondary-button" id="reset-form-button" type="button">清空表单</button>
+          </div>
+        </form>
+
+        <section class="feedback-panel" id="admin-feedback" hidden>
+          <p class="feedback-panel__status" id="admin-feedback-status"></p>
+          <p class="feedback-panel__message" id="admin-feedback-message"></p>
+        </section>
+      </section>
+    </main>
+  </div>
+
+  <script src="admin.js"></script>
+</body>
+</html>
