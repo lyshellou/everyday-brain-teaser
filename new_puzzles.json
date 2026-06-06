@@ -1,0 +1,919 @@
+[
+  {
+    "type": "logic",
+    "difficulty": "easy",
+    "question": "小明比小红大2岁，小红比小刚大1岁。小明比小刚大几岁？",
+    "answer": "3岁",
+    "acceptedAnswers": [
+      "3岁",
+      "三岁",
+      "3"
+    ],
+    "explanation": "小明-小红=2，小红-小刚=1，相加得小明-小刚=3岁。",
+    "id": "logic-06"
+  },
+  {
+    "type": "logic",
+    "difficulty": "easy",
+    "question": "教室里有10盏灯，关了3盏，还剩几盏？",
+    "answer": "10盏",
+    "acceptedAnswers": [
+      "10盏",
+      "10",
+      "十盏"
+    ],
+    "explanation": "灯的数量没有变，仍然有10盏灯。关掉不代表灯消失了。",
+    "id": "logic-07"
+  },
+  {
+    "type": "logic",
+    "difficulty": "easy",
+    "question": "树上有8只鸟，猎人开枪打死1只，树上还剩几只？",
+    "answer": "0只",
+    "acceptedAnswers": [
+      "0只",
+      "0",
+      "零只",
+      "没有"
+    ],
+    "explanation": "枪声会把其他鸟全部吓飞，所以树上没有鸟了。",
+    "id": "logic-08"
+  },
+  {
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "3个人3天喝3桶水，9个人9天喝几桶水？",
+    "answer": "27桶",
+    "acceptedAnswers": [
+      "27桶",
+      "27",
+      "二十七桶"
+    ],
+    "explanation": "3人3天3桶，即1人3天1桶，1人9天3桶，9人9天=9*3=27桶。",
+    "id": "logic-09"
+  },
+  {
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "鸡兔同笼，共有35个头，94只脚。鸡有几只？",
+    "answer": "23只",
+    "acceptedAnswers": [
+      "23只",
+      "23",
+      "二十三只"
+    ],
+    "explanation": "设鸡x只、兔y只：x+y=35，2x+4y=94，解得x=23，y=12。",
+    "id": "logic-10"
+  },
+  {
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "一个数加上它的一半等于15，这个数是多少？",
+    "answer": "10",
+    "acceptedAnswers": [
+      "10",
+      "十"
+    ],
+    "explanation": "x + x/2 = 15，即1.5x=15，所以x=10。",
+    "id": "logic-11"
+  },
+  {
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "三个连续自然数的和是27，这三个数分别是什么？",
+    "answer": "8、9、10",
+    "acceptedAnswers": [
+      "8、9、10",
+      "8,9,10",
+      "8 9 10"
+    ],
+    "explanation": "中间数=27/3=9，所以三个数是8、9、10。",
+    "id": "logic-12"
+  },
+  {
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "有口井深7米，蜗牛白天爬3米，晚上下滑2米。第几天能爬出来？",
+    "answer": "5",
+    "acceptedAnswers": [
+      "5",
+      "第五天",
+      "第5天",
+      "五天"
+    ],
+    "explanation": "前4天净爬4米（每天1米），第5天白天爬3米到7米，当天就出来了。",
+    "id": "logic-13"
+  },
+  {
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "一根绳子对折3次后，从中间剪断，能剪成几段？",
+    "answer": "9段",
+    "acceptedAnswers": [
+      "9段",
+      "9",
+      "九段"
+    ],
+    "explanation": "对折3次是8层，从中间剪断产生9段（两端各1段+中间7段）。",
+    "id": "logic-14"
+  },
+  {
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "甲说：乙在说谎。乙说：丙在说谎。丙说：甲和乙都在说谎。请问谁在说真话？",
+    "answer": "乙",
+    "acceptedAnswers": [
+      "乙",
+      "乙说真话",
+      "乙在说真话"
+    ],
+    "explanation": "逐人假设：若甲真则乙假、丙真→矛盾。若乙真则甲假、丙假，丙说假话→甲和乙不都说谎→乙说真话，成立。",
+    "id": "logic-15"
+  },
+  {
+    "type": "number",
+    "difficulty": "easy",
+    "question": "找规律：1，1，2，3，5，8，下一项是多少？",
+    "answer": "13",
+    "acceptedAnswers": [
+      "13",
+      "十三"
+    ],
+    "explanation": "这是斐波那契数列，每一项是前两项之和：5+8=13。",
+    "id": "number-06"
+  },
+  {
+    "type": "number",
+    "difficulty": "easy",
+    "question": "找规律：2，6，12，20，下一项是多少？",
+    "answer": "30",
+    "acceptedAnswers": [
+      "30",
+      "三十"
+    ],
+    "explanation": "1x2=2，2x3=6，3x4=12，4x5=20，所以下一项是5x6=30。",
+    "id": "number-07"
+  },
+  {
+    "type": "number",
+    "difficulty": "medium",
+    "question": "找规律：3，5，8，13，21，下一项是多少？",
+    "answer": "34",
+    "acceptedAnswers": [
+      "34",
+      "三十四"
+    ],
+    "explanation": "每一项是前两项之和：13+21=34。",
+    "id": "number-08"
+  },
+  {
+    "type": "number",
+    "difficulty": "medium",
+    "question": "找规律：1，4，9，16，25，下一项是多少？",
+    "answer": "36",
+    "acceptedAnswers": [
+      "36",
+      "三十六"
+    ],
+    "explanation": "平方数列：1^2=1，2^2=4，3^2=9，4^2=16，5^2=25，6^2=36。",
+    "id": "number-09"
+  },
+  {
+    "type": "number",
+    "difficulty": "medium",
+    "question": "找规律：2，3，5，7，11，下一项是多少？",
+    "answer": "13",
+    "acceptedAnswers": [
+      "13",
+      "十三"
+    ],
+    "explanation": "这是质数数列，11之后的下一个质数是13。",
+    "id": "number-10"
+  },
+  {
+    "type": "number",
+    "difficulty": "hard",
+    "question": "找规律：1，3，6，10，15，21，下一项是多少？",
+    "answer": "28",
+    "acceptedAnswers": [
+      "28",
+      "二十八"
+    ],
+    "explanation": "三角形数：每一项加的数递增2，3，4，5，6，下一个加7，21+7=28。",
+    "id": "number-11"
+  },
+  {
+    "type": "number",
+    "difficulty": "hard",
+    "question": "找规律：2，5，10，17，26，下一项是多少？",
+    "answer": "37",
+    "acceptedAnswers": [
+      "37",
+      "三十七"
+    ],
+    "explanation": "n^2+1的数列：1^2+1=2，2^2+1=5，3^2+1=10，4^2+1=17，5^2+1=26，6^2+1=37。",
+    "id": "number-12"
+  },
+  {
+    "type": "number",
+    "difficulty": "hard",
+    "question": "找规律：1，2，6，24，120，下一项是多少？",
+    "answer": "720",
+    "acceptedAnswers": [
+      "720",
+      "七百二十"
+    ],
+    "explanation": "阶乘数列：1!=1，2!=2，3!=6，4!=24，5!=120，6!=720。",
+    "id": "number-13"
+  },
+  {
+    "id": "word-07",
+    "type": "word",
+    "difficulty": "easy",
+    "question": "什么样的书最香？",
+    "answer": "菜谱",
+    "acceptedAnswers": [
+      "菜谱",
+      "脸书",
+      "书谱",
+      "乐谱",
+      "图谱"
+    ],
+    "explanation": "\"什么样的书最香？\" 的答案是 \"菜谱\"。"
+  },
+  {
+    "id": "word-08",
+    "type": "word",
+    "difficulty": "hard",
+    "question": "细菌靠生物而活那么什么靠细菌活？",
+    "answer": "医生",
+    "acceptedAnswers": [
+      "医生",
+      "农民",
+      "老师",
+      "律师",
+      "工人"
+    ],
+    "explanation": "\"细菌靠生物而活那么什么靠细菌活？\" 的答案是 \"医生\"。"
+  },
+  {
+    "id": "word-09",
+    "type": "word",
+    "difficulty": "medium",
+    "question": "什么老鼠跑的最快！",
+    "answer": "看见猫的老鼠",
+    "acceptedAnswers": [
+      "看见猫的老鼠",
+      "死老鼠",
+      "松鼠",
+      "受伤的老鼠",
+      "饥饿的老鼠"
+    ],
+    "explanation": "\"什么老鼠跑的最快！\" 的答案是 \"看见猫的老鼠\"。"
+  },
+  {
+    "id": "word-10",
+    "type": "word",
+    "difficulty": "medium",
+    "question": "什么海不产鱼",
+    "answer": "人山人海",
+    "acceptedAnswers": [
+      "人山人海",
+      "死海",
+      "青海",
+      "地中海",
+      "海誓山盟"
+    ],
+    "explanation": "\"什么海不产鱼\" 的答案是 \"人山人海\"。"
+  },
+  {
+    "id": "word-11",
+    "type": "word",
+    "difficulty": "medium",
+    "question": "什么字大家看了都说没用？",
+    "answer": "没用",
+    "acceptedAnswers": [
+      "没用",
+      "字典",
+      "好用",
+      "字帖",
+      "有用"
+    ],
+    "explanation": "\"什么字大家看了都说没用？\" 的答案是 \"没用\"。"
+  },
+  {
+    "id": "word-12",
+    "type": "word",
+    "difficulty": "hard",
+    "question": "什么东西没有价值但大家又很喜欢？",
+    "answer": "无价之宝",
+    "acceptedAnswers": [
+      "无价之宝",
+      "一文不值",
+      "一钱不值",
+      "金银珠宝",
+      "粪土不如"
+    ],
+    "explanation": "\"什么东西没有价值但大家又很喜欢？\" 的答案是 \"无价之宝\"。"
+  },
+  {
+    "id": "word-13",
+    "type": "word",
+    "difficulty": "medium",
+    "question": "爸爸什么时像个孩子？",
+    "answer": "在爷爷面前",
+    "acceptedAnswers": [
+      "在爷爷面前",
+      "在女儿面前",
+      "在儿子面前",
+      "在妈妈面前",
+      "在奶奶面前"
+    ],
+    "explanation": "\"爸爸什么时像个孩子？\" 的答案是 \"在爷爷面前\"。"
+  },
+  {
+    "id": "word-14",
+    "type": "word",
+    "difficulty": "medium",
+    "question": "沙漠中最常见的东西是什么？",
+    "answer": "沙子",
+    "acceptedAnswers": [
+      "沙子",
+      "泥土",
+      "树木",
+      "水",
+      "石头"
+    ],
+    "explanation": "\"沙漠中最常见的东西是什么？\" 的答案是 \"沙子\"。"
+  },
+  {
+    "id": "word-15",
+    "type": "word",
+    "difficulty": "easy",
+    "question": "永远也写不好的字是什么字？",
+    "answer": "孬",
+    "acceptedAnswers": [
+      "孬",
+      "女",
+      "孜",
+      "好",
+      "坏"
+    ],
+    "explanation": "\"永远也写不好的字是什么字？\" 的答案是 \"孬\"。"
+  },
+  {
+    "id": "word-16",
+    "type": "word",
+    "difficulty": "easy",
+    "question": "什么树永远不会枯死？",
+    "answer": "画上的树",
+    "acceptedAnswers": [
+      "画上的树",
+      "杨树",
+      "桃树",
+      "柳树",
+      "果树"
+    ],
+    "explanation": "\"什么树永远不会枯死？\" 的答案是 \"画上的树\"。"
+  },
+  {
+    "id": "word-17",
+    "type": "word",
+    "difficulty": "medium",
+    "question": "什么河里从来没有水？",
+    "answer": "银河",
+    "acceptedAnswers": [
+      "银河",
+      "长江",
+      "海河",
+      "黄河",
+      "珠江"
+    ],
+    "explanation": "\"什么河里从来没有水？\" 的答案是 \"银河\"。"
+  },
+  {
+    "id": "word-18",
+    "type": "word",
+    "difficulty": "easy",
+    "question": "小孩子喜好什么？",
+    "answer": "好奇",
+    "acceptedAnswers": [
+      "好奇",
+      "好笑",
+      "好美",
+      "好色",
+      "好玩"
+    ],
+    "explanation": "\"小孩子喜好什么？\" 的答案是 \"好奇\"。"
+  },
+  {
+    "id": "word-19",
+    "type": "word",
+    "difficulty": "medium",
+    "question": "猫最喜欢吃什么？",
+    "answer": "老鼠",
+    "acceptedAnswers": [
+      "老鼠",
+      "松鼠",
+      "刺猬",
+      "袋鼠",
+      "竹鼠"
+    ],
+    "explanation": "\"猫最喜欢吃什么？\" 的答案是 \"老鼠\"。"
+  },
+  {
+    "id": "word-20",
+    "type": "word",
+    "difficulty": "medium",
+    "question": "什么柴不能烧？",
+    "answer": "人才",
+    "acceptedAnswers": [
+      "人才",
+      "火柴",
+      "树木",
+      "木柴",
+      "木材"
+    ],
+    "explanation": "\"什么柴不能烧？\" 的答案是 \"人才\"。"
+  },
+  {
+    "id": "word-21",
+    "type": "word",
+    "difficulty": "easy",
+    "question": "什么最铁面无私",
+    "answer": "称",
+    "acceptedAnswers": [
+      "称",
+      "天平",
+      "面具",
+      "铁球",
+      "钢珠"
+    ],
+    "explanation": "\"什么最铁面无私\" 的答案是 \"称\"。"
+  },
+  {
+    "id": "word-22",
+    "type": "word",
+    "difficulty": "easy",
+    "question": "什么酒不能喝？",
+    "answer": "碘酒",
+    "acceptedAnswers": [
+      "碘酒",
+      "白酒",
+      "米酒",
+      "酒精",
+      "红酒"
+    ],
+    "explanation": "\"什么酒不能喝？\" 的答案是 \"碘酒\"。"
+  },
+  {
+    "id": "word-23",
+    "type": "word",
+    "difficulty": "easy",
+    "question": "什么鬼整天腾云驾雾？",
+    "answer": "烟鬼",
+    "acceptedAnswers": [
+      "烟鬼",
+      "恶鬼",
+      "替死鬼",
+      "胆小鬼",
+      "穷鬼"
+    ],
+    "explanation": "\"什么鬼整天腾云驾雾？\" 的答案是 \"烟鬼\"。"
+  },
+  {
+    "id": "word-24",
+    "type": "word",
+    "difficulty": "medium",
+    "question": "世界上最长的单词是什么？",
+    "answer": "smiles",
+    "acceptedAnswers": [
+      "smiles",
+      "short",
+      "mile",
+      "tall",
+      "long"
+    ],
+    "explanation": "\"世界上最长的单词是什么？\" 的答案是 \"smiles\"。"
+  },
+  {
+    "id": "word-25",
+    "type": "word",
+    "difficulty": "medium",
+    "question": "什么酒喝不了？",
+    "answer": "天长地久",
+    "acceptedAnswers": [
+      "天长地久",
+      "天涯海角",
+      "地老天荒",
+      "上天入地",
+      "天崩地裂"
+    ],
+    "explanation": "\"什么酒喝不了？\" 的答案是 \"天长地久\"。"
+  },
+  {
+    "id": "word-26",
+    "type": "word",
+    "difficulty": "easy",
+    "question": "什么饼不能吃？",
+    "answer": "铁饼",
+    "acceptedAnswers": [
+      "铁饼",
+      "烧饼",
+      "饼干",
+      "馅饼",
+      "月饼"
+    ],
+    "explanation": "\"什么饼不能吃？\" 的答案是 \"铁饼\"。"
+  },
+  {
+    "id": "word-27",
+    "type": "word",
+    "difficulty": "medium",
+    "question": "什么碗打不烂？",
+    "answer": "铁饭碗",
+    "acceptedAnswers": [
+      "铁饭碗",
+      "胶碗",
+      "碗筷",
+      "碗窑",
+      "瓷碗"
+    ],
+    "explanation": "\"什么碗打不烂？\" 的答案是 \"铁饭碗\"。"
+  },
+  {
+    "id": "word-28",
+    "type": "word",
+    "difficulty": "easy",
+    "question": "什么酒价格最贵？",
+    "answer": "喜酒",
+    "acceptedAnswers": [
+      "喜酒",
+      "白酒",
+      "啤酒",
+      "料酒",
+      "鸡尾酒"
+    ],
+    "explanation": "\"什么酒价格最贵？\" 的答案是 \"喜酒\"。"
+  },
+  {
+    "id": "number-14",
+    "type": "number",
+    "difficulty": "medium",
+    "question": "什么数字让女士有爱又恨",
+    "answer": "三八",
+    "acceptedAnswers": [
+      "三八",
+      "约分",
+      "三",
+      "分数",
+      "反比"
+    ],
+    "explanation": "经过推理计算，\"什么数字让女士有爱又恨\" 的正确答案是 \"三八\"。"
+  },
+  {
+    "id": "number-15",
+    "type": "number",
+    "difficulty": "easy",
+    "question": "旭日东升(打一数字)",
+    "answer": "九",
+    "acceptedAnswers": [
+      "九",
+      "不三不四",
+      "三十六计",
+      "尾数",
+      "求证"
+    ],
+    "explanation": "经过推理计算，\"旭日东升(打一数字)\" 的正确答案是 \"九\"。"
+  },
+  {
+    "id": "word-29",
+    "type": "word",
+    "difficulty": "medium",
+    "question": "你盼我来，我盼你来。(打一数学名词)",
+    "answer": "相等",
+    "acceptedAnswers": [
+      "相等",
+      "白",
+      "百无一是",
+      "一",
+      "垂直"
+    ],
+    "explanation": "\"你盼我来，我盼你来。(打一数学名词)\" 的答案是 \"相等\"。"
+  },
+  {
+    "id": "word-30",
+    "type": "word",
+    "difficulty": "easy",
+    "question": "1：1(打一成语)",
+    "answer": "势均力敌",
+    "acceptedAnswers": [
+      "势均力敌",
+      "对应",
+      "等号",
+      "等角",
+      "三"
+    ],
+    "explanation": "\"1：1(打一成语)\" 的答案是 \"势均力敌\"。"
+  },
+  {
+    "id": "word-31",
+    "type": "word",
+    "difficulty": "easy",
+    "question": "两牛相斗(打一数学名词)",
+    "answer": "对角",
+    "acceptedAnswers": [
+      "对角",
+      "相等 、平行",
+      "误差",
+      "杨乐",
+      "线段(断)"
+    ],
+    "explanation": "\"两牛相斗(打一数学名词)\" 的答案是 \"对角\"。"
+  },
+  {
+    "id": "word-32",
+    "type": "word",
+    "difficulty": "medium",
+    "question": "再见吧，妈妈!(打一数学名词)",
+    "answer": "分母",
+    "acceptedAnswers": [
+      "分母",
+      "圆规",
+      "无穷",
+      "指数",
+      "得寸进尺"
+    ],
+    "explanation": "\"再见吧，妈妈!(打一数学名词)\" 的答案是 \"分母\"。"
+  },
+  {
+    "id": "word-33",
+    "type": "word",
+    "difficulty": "easy",
+    "question": "五角(打一几何学名词)",
+    "answer": "半圆",
+    "acceptedAnswers": [
+      "半圆",
+      "八一",
+      "杂",
+      "成品",
+      "一无所有"
+    ],
+    "explanation": "\"五角(打一几何学名词)\" 的答案是 \"半圆\"。"
+  },
+  {
+    "id": "word-34",
+    "type": "word",
+    "difficulty": "medium",
+    "question": "0.3元(打一几何学名词)",
+    "answer": "三角形",
+    "acceptedAnswers": [
+      "三角形",
+      "等角",
+      "余角(换算、通假)",
+      "四边形",
+      "一无所有"
+    ],
+    "explanation": "\"0.3元(打一几何学名词)\" 的答案是 \"三角形\"。"
+  },
+  {
+    "id": "word-35",
+    "type": "word",
+    "difficulty": "medium",
+    "question": "15分 一千元 (打一成语)",
+    "answer": "一刻千金",
+    "acceptedAnswers": [
+      "一刻千金",
+      "同心圆",
+      "千方百计",
+      "等号",
+      "祖冲之"
+    ],
+    "explanation": "\"15分 一千元 (打一成语)\" 的答案是 \"一刻千金\"。"
+  },
+  {
+    "id": "word-36",
+    "type": "word",
+    "difficulty": "easy",
+    "question": "两牛相对(打一数学符号)",
+    "answer": "大括号",
+    "acceptedAnswers": [
+      "大括号",
+      "已知",
+      "数轴",
+      "负号",
+      "三五成群"
+    ],
+    "explanation": "\"两牛相对(打一数学符号)\" 的答案是 \"大括号\"。"
+  },
+  {
+    "id": "word-37",
+    "type": "word",
+    "difficulty": "medium",
+    "question": "什么东西能装下世界(打一物品名称)",
+    "answer": "地图",
+    "acceptedAnswers": [
+      "地图",
+      "等于(通假法)",
+      "祖冲之",
+      "等角",
+      "张广厚"
+    ],
+    "explanation": "\"什么东西能装下世界(打一物品名称)\" 的答案是 \"地图\"。"
+  },
+  {
+    "id": "word-38",
+    "type": "word",
+    "difficulty": "medium",
+    "question": "牛郎织女(打一数学符号)",
+    "answer": "除号",
+    "acceptedAnswers": [
+      "除号",
+      "得寸进尺",
+      "田",
+      "十",
+      "集合"
+    ],
+    "explanation": "\"牛郎织女(打一数学符号)\" 的答案是 \"除号\"。"
+  },
+  {
+    "id": "word-39",
+    "type": "word",
+    "difficulty": "medium",
+    "question": "国家元首当会计(打一数学名词)",
+    "answer": "统计",
+    "acceptedAnswers": [
+      "统计",
+      "分数",
+      "分子、分母",
+      "百里挑一",
+      "商"
+    ],
+    "explanation": "\"国家元首当会计(打一数学名词)\" 的答案是 \"统计\"。"
+  },
+  {
+    "id": "word-40",
+    "type": "word",
+    "difficulty": "easy",
+    "question": "一刀两断 (打一数学名词)",
+    "answer": "分数",
+    "acceptedAnswers": [
+      "分数",
+      "平角",
+      "延长线",
+      "分解",
+      "正数"
+    ],
+    "explanation": "\"一刀两断 (打一数学名词)\" 的答案是 \"分数\"。"
+  },
+  {
+    "id": "word-41",
+    "type": "word",
+    "difficulty": "medium",
+    "question": "什么球离你最近？",
+    "answer": "地球",
+    "acceptedAnswers": [
+      "地球",
+      "篮球",
+      "足球",
+      "气球",
+      "煤球"
+    ],
+    "explanation": "\"什么球离你最近？\" 的答案是 \"地球\"。"
+  },
+  {
+    "id": "word-42",
+    "type": "word",
+    "difficulty": "medium",
+    "question": "什么屎不臭？",
+    "answer": "天使",
+    "acceptedAnswers": [
+      "天使",
+      "眼屎",
+      "狗屎",
+      "大便",
+      "耳屎"
+    ],
+    "explanation": "\"什么屎不臭？\" 的答案是 \"天使\"。"
+  },
+  {
+    "id": "word-43",
+    "type": "word",
+    "difficulty": "medium",
+    "question": "什么伤医院不能治？",
+    "answer": "伤脑筋",
+    "acceptedAnswers": [
+      "伤脑筋",
+      "伤寒",
+      "伤食",
+      "悲伤",
+      "伤痛"
+    ],
+    "explanation": "\"什么伤医院不能治？\" 的答案是 \"伤脑筋\"。"
+  },
+  {
+    "id": "word-44",
+    "type": "word",
+    "difficulty": "easy",
+    "question": "什么枪把人打跑却不伤人？",
+    "answer": "水枪",
+    "acceptedAnswers": [
+      "水枪",
+      "红缨枪",
+      "烟枪",
+      "手枪",
+      "机枪"
+    ],
+    "explanation": "\"什么枪把人打跑却不伤人？\" 的答案是 \"水枪\"。"
+  },
+  {
+    "id": "word-45",
+    "type": "word",
+    "difficulty": "easy",
+    "question": "哪个连的人最多？",
+    "answer": "大连",
+    "acceptedAnswers": [
+      "大连",
+      "连带",
+      "连忙",
+      "连队",
+      "联璧"
+    ],
+    "explanation": "\"哪个连的人最多？\" 的答案是 \"大连\"。"
+  },
+  {
+    "id": "word-46",
+    "type": "word",
+    "difficulty": "medium",
+    "question": "比眼大的东西是什么？",
+    "answer": "眼皮",
+    "acceptedAnswers": [
+      "眼皮",
+      "耳朵",
+      "眼睛",
+      "鼻子",
+      "嘴巴"
+    ],
+    "explanation": "\"比眼大的东西是什么？\" 的答案是 \"眼皮\"。"
+  },
+  {
+    "id": "word-47",
+    "type": "word",
+    "difficulty": "easy",
+    "question": "什么蛋又能走又能跳还会说话？",
+    "answer": "笨蛋",
+    "acceptedAnswers": [
+      "笨蛋",
+      "鸡蛋",
+      "鸟蛋",
+      "鸭蛋",
+      "坏蛋"
+    ],
+    "explanation": "\"什么蛋又能走又能跳还会说话？\" 的答案是 \"笨蛋\"。"
+  },
+  {
+    "id": "word-48",
+    "type": "word",
+    "difficulty": "easy",
+    "question": "什么时候做的事别人看不到？",
+    "answer": "梦里做的事",
+    "acceptedAnswers": [
+      "梦里做的事",
+      "梦游",
+      "打呼噜",
+      "睡觉",
+      "打瞌睡"
+    ],
+    "explanation": "\"什么时候做的事别人看不到？\" 的答案是 \"梦里做的事\"。"
+  },
+  {
+    "id": "word-49",
+    "type": "word",
+    "difficulty": "easy",
+    "question": "什么车不会飞？",
+    "answer": "风车",
+    "acceptedAnswers": [
+      "风车",
+      "飞机",
+      "卫星",
+      "导弹",
+      "火箭"
+    ],
+    "explanation": "\"什么车不会飞？\" 的答案是 \"风车\"。"
+  },
+  {
+    "id": "word-50",
+    "type": "word",
+    "difficulty": "medium",
+    "question": "什么水不能喝？",
+    "answer": "薪水",
+    "acceptedAnswers": [
+      "薪水",
+      "自来水",
+      "饮用水",
+      "矿泉水",
+      "墨水"
+    ],
+    "explanation": "\"什么水不能喝？\" 的答案是 \"薪水\"。"
+  }
+]

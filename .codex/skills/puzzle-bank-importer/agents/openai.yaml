@@ -1,0 +1,3 @@
+interface:
+  display_name: "Puzzle Bank Importer"
+  short_description: "Import brain teasers, riddles, and logic puzzles from public datasets into the everyday-brain-teaser SQLite database. Use when expanding or bulk-loading puzzles."
